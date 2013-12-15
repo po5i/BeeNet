@@ -1,0 +1,147 @@
+/* 
+    Document   : hackathon
+    Created on : Dec 14, 2013, 6:34:22 PM
+    Author     : user
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+h1{
+    font-family: Verdana;
+}
+/*
+#navbar{
+    background-color:black;
+}
+
+#navbar #holder ul{
+    list-style: none;
+    margin:0;
+    padding:0;
+       color: black;
+}
+#navbar #holder ul li{
+ display: inline;
+ background: transparent;
+}
+*/
+/*
+#navbar #holder ul li a {
+   text-align: center;
+  padding: 8px 0;
+  display: block;
+  width: 100%;
+  background: grey;
+  background: -moz-linear-gradient(top,
+    #cdeb8e 0%, #b0ca34 100%); 
+  background: -webkit-gradient(linear, 
+    left top, left bottom, color-stop(0%,#cdeb8e),
+    color-stop(100%,#b0ca34)); 
+  background: -webkit-linear-gradient(top,  
+    #cdeb8e 0%,#b0ca34 100%); 
+  background: -o-linear-gradient(top,  
+    #cdeb8e 0%,#b0ca34 100%); 
+  background: linear-gradient(to bottom,  
+    #cdeb8e 0%,#b0ca34 100%); 
+  filter: progid:DXImageTransform.Microsoft.gradient( 
+    startColorstr='grey';
+    endColorstr='#b0ca34',GradientType=0
+   
+   }
+#navbar #holder ul li a:hover{
+    background:black;
+ 
+    
+}
+*/
+      body {
+	background-repeat:no-repeat;
+	background-position:top center;
+	background-color:black;
+	margin:40px;
+}
+
+#tabbed_box_1 {
+	margin: 0px auto 0px auto;
+	width:300px;
+}
+
+
+.tabbed_area {
+	border:1px solid whitesmoke;
+	background-color:black;
+	padding:8px;	
+}
+
+ul.tabs {
+	margin:0px; padding:0px;
+	margin-top:5px;
+	margin-bottom:6px;
+}
+ul.tabs li {
+	list-style:none;
+	display:inline;
+}
+ul.tabs li a {
+	background-color:black;
+	color:white;
+	padding:8px 14px 8px 14px;
+	text-decoration:none;
+	font-size:9px;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-weight:bold;
+	/*text-transform:uppercase;*/
+	border:1px solid whitesmoke;
+	background-repeat:repeat-x;	 
+	background-position:bottom;
+}
+ul.tabs li a:hover {
+	background-color:black;/*background of search*/
+	border-color:black;/*background of be a supplier*/
+}
+ul.tabs li a.active {
+	background-color:black;
+	color:lightslategray;
+	border:1px solid whitesmoke; 
+	border-bottom: 1px solid whitesmoke;
+	background-repeat:repeat-x;
+	background-position:top;	
+}
+.content {
+	background-color:whitesmoke;
+	padding:10px;
+	border:1px solid black; 	
+	font-family:Arial, Helvetica, sans-serif;
+	background-repeat:repeat-x;	 
+	background-position:bottom;	
+}
+#be_a_Supplier { display:none; }
+
+.content ul {
+	margin:0px;
+	padding:0px 20px 0px 20px;
+}
+.content ul li {
+	list-style:none;
+	border-bottom:1px solid whitesmoke;
+	padding-top:15px;
+	padding-bottom:15px;
+	font-size:13px;
+}
+.content ul li:last-child {
+	border-bottom:none;
+}
+.content ul li a {
+	text-decoration:none;
+	color:black;
+}
+.content ul li a:hover {
+	color:lightslategray;
+}
+.tab {
+
+}
+
+.tabbed_box {
+
+}

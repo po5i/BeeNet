@@ -1,0 +1,71 @@
+/* 
+    Document   : style
+    Created on : Sep 9, 2013, 5:29:22 PM
+    Author     : user
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+/* Put your CSS here */
+body {    
+    background-image:url("background_API.jpg");
+    background-position: calc;
+    background-clip: content-box;
+    background-repeat: no-repeat;
+    background-origin: content-box;
+    background-size: cover;
+    background-attachment: scroll;
+    font: 1.1em Open Sans, Arial, Helvetica, sans-serif;
+}
+h2 {
+     font: bold 25px 'lucida sans', 'trebuchet MS', 'Tahoma';
+     color: black; 
+}
+body style {
+    text-align: center;
+}
+a{
+    color:black;
+}
+
+.dg-question-label{ /* Question label */
+    font-weight:bold;
+    text-align: center;
+    font: bold 15px 'lucida sans', 'trebuchet MS', 'Tahoma';
+    padding:10px;
+}
+.dg-question-option{
+    text-align: justify;
+    margin-left: 40%;
+}
+.dg-answer-button-container{
+   font-weight:bold;
+   text-align: center;
+}
+#error {
+    font-style:italic;
+    color:red;
+}
+
+/* contact form */
+
+.error { 
+    display: block; 
+    color: red; 
+    font-style: italic; 
+} 
+#message { 
+    display:none; 
+    font-size:15px; 
+    font-weight:bold; 
+    color:#333333; 
+} 
+#contact {
+    display: none;
+}
+#questions {
+    display:none;
+}
+#result {
+    display:none;
+}

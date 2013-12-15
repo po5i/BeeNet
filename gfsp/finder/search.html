@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title> GFSP </title>
+<!-- INCLUDE REQUIRED THIRD PARTY LIBRARY JAVASCRIPT AND CSS -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<link rel="stylesheet" type="text/css" href="../css/style.css" />
+<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,600,700,300' rel='stylesheet' type='text/css'>
+
+</head>
+
+<!--<body onload="test('honey')">-->
+<body onload="init()">
+<!--<body>-->
+
+<!-- Main div that contains the listing, the facets, the search field.
+      the pagination and the informative messages. -->
+<div id="akListing">
+  <form onSubmit="test(this.search_query.value);return false;" class="form-wrapper cf">
+    <input id="sqr" name="search_query" type="text" placeholder="Search here..." required>
+    <button id="gogogo" type="button" onclick="test(document.getElementById('sqr').value);">Search</button>
+  </form>
+
+  <!-- listing -->
+  <div id="listing_container">
+  </div>
+
+</div>
+
+<script src="../js/jquery-1.10.2.min.js"> </script>
+<script src="../js/mine.js"> </script>
+
+
+</body>
+</html>
